@@ -17,7 +17,7 @@ html_main = """
 </header>
 <div>
     <ul>
-        <li class="nav-item"><a href="/main" class="nav-link">Главная</a></li>
+        <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
         <li class="nav-item"><a href="/about_me/" class="nav-link">Обо мне</a></li>
     </ul>
     <h2> Привет! Это мой первый проект!</h2>
@@ -42,7 +42,7 @@ html_me = """
 </header>
 <div>
     <ul>
-        <li class="nav-item"><a href="/main" class="nav-link">Главная</a></li>
+        <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
         <li class="nav-item"><a href="/about_me/" class="nav-link">Обо мне</a></li>
     </ul>
     <h3> 

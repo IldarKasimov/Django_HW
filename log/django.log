@@ -3,3 +3,30 @@ Watching for file changes with StatReloader
 "GET /main/ HTTP/1.1" 200 638
 Посетили страницу обо мне
 "GET /about_me/ HTTP/1.1" 200 826
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2402
+/Users/user/Desktop/Education/Python/7_Framework_Django — копия/HW/Django_HW/homeproject/myapp/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Посетили главную страницу
+"GET / HTTP/1.1" 200 638
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 2430
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 2430
+Not Found: /main/
+"GET /main/ HTTP/1.1" 404 2430
+/Users/user/Desktop/Education/Python/7_Framework_Django — копия/HW/Django_HW/homeproject/myapp/views.py changed, reloading.
+Watching for file changes with StatReloader
+Посетили главную страницу
+"GET / HTTP/1.1" 200 634
+Посетили главную страницу
+"GET / HTTP/1.1" 200 634
+Посетили страницу обо мне
+"GET /about_me/ HTTP/1.1" 200 822
+Посетили главную страницу
+"GET / HTTP/1.1" 200 634
+Посетили страницу обо мне
+"GET /about_me/ HTTP/1.1" 200 822
+Посетили главную страницу
+"GET / HTTP/1.1" 200 634
