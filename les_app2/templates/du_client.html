@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Удалить или изменить клиента</h3>
+
+<table border="1">
+    <tr>
+        <th>Имя</th>
+        <th>Почта</th>
+        <th>Телефон</th>
+        <th>Удалить/Изменить</th>
+    </tr>
+    {% for client in clients %}
+    <tr>
+        <td>{{client.name}}</td>
+        <td>{{client.email}}</td>
+        <td>{{client.phone}}</td>
+        <td>
+            <form id="deleteForm{{ client.id }}" action="{% url 'del_client' client.id %}" method="post" style="display: inline;">
+                {% csrf_token %}
+                <button type="submit">Удалить</button>
+            </form>
+            <form id="updateForm{{ client.id }}" action="{% url 'update_client' client.id %}" method="post" style="display: inline;">
+                {% csrf_token %}
+                <button type="submit">Изменить</button>
+            </form>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

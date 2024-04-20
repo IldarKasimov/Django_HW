@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp'
+    'les_app1',
+    'les_app2',
 ]
 
 MIDDLEWARE = [
@@ -151,7 +152,7 @@ LOGGING = {
             'handlers': ['console', 'file'],
             'level': 'INFO',
         },
-        'myapp': {
+        'les_app1': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

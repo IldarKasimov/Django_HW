@@ -1,32 +1,1729 @@
 Watching for file changes with StatReloader
-Посетили главную страницу
-"GET /main/ HTTP/1.1" 200 638
-Посетили страницу обо мне
-"GET /about_me/ HTTP/1.1" 200 826
+Постелили главную страницу
+"GET / HTTP/1.1" 200 399
+Not Found: /about_me/
+"GET /about_me/ HTTP/1.1" 404 2437
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app1/views.py changed, reloading.
 Watching for file changes with StatReloader
-Not Found: /
-"GET / HTTP/1.1" 404 2402
-/Users/user/Desktop/Education/Python/7_Framework_Django — копия/HW/Django_HW/homeproject/myapp/urls.py changed, reloading.
+Not Found: /about_me/
+"GET /about_me/ HTTP/1.1" 404 2437
+Not Found: /about_me/
+"GET /about_me/ HTTP/1.1" 404 2437
+Not Found: /about_me/
+"GET /about_me/ HTTP/1.1" 404 2437
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app1/views.py changed, reloading.
 Watching for file changes with StatReloader
-Посетили главную страницу
-"GET / HTTP/1.1" 200 638
-Not Found: /main/
-"GET /main/ HTTP/1.1" 404 2430
-Not Found: /main/
-"GET /main/ HTTP/1.1" 404 2430
-Not Found: /main/
-"GET /main/ HTTP/1.1" 404 2430
-/Users/user/Desktop/Education/Python/7_Framework_Django — копия/HW/Django_HW/homeproject/myapp/views.py changed, reloading.
+Not Found: /about_me/
+"GET /about_me/ HTTP/1.1" 404 2437
+"GET /about HTTP/1.1" 301 0
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Постелили главную страницу
+"GET / HTTP/1.1" 200 396
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Постелили главную страницу
+"GET / HTTP/1.1" 200 396
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Постелили главную страницу
+"GET / HTTP/1.1" 200 396
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Постелили главную страницу
+"GET / HTTP/1.1" 200 396
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 609
+Постелили главную страницу
+"GET / HTTP/1.1" 200 396
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app1/views.py changed, reloading.
 Watching for file changes with StatReloader
-Посетили главную страницу
-"GET / HTTP/1.1" 200 634
-Посетили главную страницу
-"GET / HTTP/1.1" 200 634
 Посетили страницу обо мне
-"GET /about_me/ HTTP/1.1" 200 822
-Посетили главную страницу
-"GET / HTTP/1.1" 200 634
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 400
 Посетили страницу обо мне
-"GET /about_me/ HTTP/1.1" 200 822
-Посетили главную страницу
-"GET / HTTP/1.1" 200 634
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 400
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 400
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 487
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app1/views.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 3
+"GET /less2/ HTTP/1.1" 200 3
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2549
+Internal Server Error: /less2/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 6, in main
+    return render(request, 'base.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+"GET /less2/ HTTP/1.1" 500 107630
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+Internal Server Error: /less2/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 6, in main
+    return render(request, 'base.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+"GET /less2/ HTTP/1.1" 500 107688
+Watching for file changes with StatReloader
+Internal Server Error: /less2/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 6, in main
+    return render(request, 'base.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+"GET /less2/ HTTP/1.1" 500 108090
+Internal Server Error: /less2/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 6, in main
+    return render(request, 'base.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'main' not found. 'main' is not a valid view function or pattern name.
+"GET /less2/ HTTP/1.1" 500 108090
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less2/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 6, in main
+    return render(request, 'base.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_client' not found. 'create_client' is not a valid view function or pattern name.
+"GET /less2/ HTTP/1.1" 500 108174
+Watching for file changes with StatReloader
+"GET /less2/ HTTP/1.1" 200 367
+"GET /less2/ HTTP/1.1" 200 367
+"GET /less2/ HTTP/1.1" 200 367
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/ HTTP/1.1" 200 400
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 451
+Internal Server Error: /less2/create_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 17, in create_client
+    return render(request, 'create_client.html', {'form': form})
+                                                          ^^^^
+UnboundLocalError: cannot access local variable 'form' where it is not associated with a value
+"GET /less2/create_client/ HTTP/1.1" 500 59884
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less2/create_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'bloc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 17, in create_client
+    return render(request, 'create_client.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'bloc'. Did you forget to register or load this tag?
+"GET /less2/create_client/ HTTP/1.1" 500 143708
+Watching for file changes with StatReloader
+"GET /less2/create_client/ HTTP/1.1" 200 1095
+"GET /less2/ HTTP/1.1" 200 451
+"GET /less2/create_client/ HTTP/1.1" 200 1095
+"POST /less2/create_client/ HTTP/1.1" 200 1095
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/create_client/ HTTP/1.1" 200 1074
+"GET /less2/ HTTP/1.1" 200 451
+"GET /less2/create_client/ HTTP/1.1" 200 1074
+"GET /less2/ HTTP/1.1" 200 451
+"GET /less2/create_client/ HTTP/1.1" 200 1074
+Internal Server Error: /less2/create_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 14, in create_client
+    return redirect('all_clients')
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'all_clients' not found. 'all_clients' is not a valid view function or pattern name.
+"POST /less2/create_client/ HTTP/1.1" 500 80233
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less2/create_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 15, in create_client
+    return redirect('all_clients')
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'all_clients' not found. 'all_clients' is not a valid view function or pattern name.
+"POST /less2/create_client/ HTTP/1.1" 500 80588
+"GET /less2/ HTTP/1.1" 200 541
+"GET /less2/ HTTP/1.1" 200 541
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+Internal Server Error: /less2/create_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 15, in create_client
+    return redirect('all_clients')
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'all_clients' not found. 'all_clients' is not a valid view function or pattern name.
+"POST /less2/create_client/ HTTP/1.1" 500 80591
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/create_client/ HTTP/1.1" 302 0
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 22, in get_clients
+    clients = Client.object.all()
+              ^^^^^^^^^^^^^
+AttributeError: type object 'Client' has no attribute 'object'. Did you mean: 'objects'?
+"GET /less2/get_clients/ HTTP/1.1" 500 60032
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'bloc'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 3: 'bloc'. Did you forget to register or load this tag?
+"GET /less2/get_clients/ HTTP/1.1" 500 141854
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 584
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 541
+"GET /less2/get_clients/ HTTP/1.1" 200 568
+"GET /less2/get_clients/ HTTP/1.1" 200 604
+"GET /less2/get_clients/ HTTP/1.1" 200 604
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 604
+"GET /less2/get_clients/ HTTP/1.1" 200 604
+"GET /less2/get_clients/ HTTP/1.1" 200 620
+"GET /less2/get_clients/ HTTP/1.1" 200 680
+"GET /less2/get_clients/ HTTP/1.1" 200 680
+"GET /less2/get_clients/ HTTP/1.1" 200 680
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 680
+"GET /less2/get_clients/ HTTP/1.1" 200 680
+"GET /less2/get_clients/ HTTP/1.1" 200 664
+"GET /less2/get_clients/ HTTP/1.1" 200 664
+"GET /less2/get_clients/ HTTP/1.1" 200 585
+"GET /less2/get_clients/ HTTP/1.1" 200 585
+"GET /less2/get_clients/ HTTP/1.1" 200 585
+"GET /less2/get_clients/ HTTP/1.1" 200 621
+"GET /less2/get_clients/ HTTP/1.1" 200 621
+"GET /less2/get_clients/ HTTP/1.1" 200 717
+"GET /less2/get_clients/ HTTP/1.1" 200 717
+"GET /less2/get_clients/ HTTP/1.1" 200 883
+"GET /less2/get_clients/ HTTP/1.1" 200 883
+"GET /less2/get_clients/ HTTP/1.1" 200 883
+"GET /less2/get_clients/ HTTP/1.1" 200 897
+"GET /less2/get_clients/ HTTP/1.1" 200 897
+"GET /less2/get_clients/ HTTP/1.1" 200 897
+"GET /less2/get_clients/ HTTP/1.1" 200 901
+"GET /less2/get_clients/ HTTP/1.1" 200 901
+"GET /less2/get_clients/ HTTP/1.1" 200 901
+"GET /less2/get_clients/ HTTP/1.1" 200 901
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /less2/get_clients/ HTTP/1.1" 500 170560
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 555, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+"GET /less2/get_clients/ HTTP/1.1" 500 170560
+"GET /less2/get_clients/ HTTP/1.1" 200 792
+"GET /less2/get_clients/ HTTP/1.1" 200 792
+"GET /less2/get_clients/ HTTP/1.1" 200 1517
+"GET /less2/get_clients/ HTTP/1.1" 200 1517
+"GET /less2/create_client/ HTTP/1.1" 200 1164
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1695
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/forms.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1706
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 606
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+Internal Server Error: /less2/del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 502, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 35, in del_client
+    return render(request, 'delete_client.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 510, in parse
+    raise self.error(token, e)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 504, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 565, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'endblock'. Did you forget to register or load this tag?
+"GET /less2/del_client/ HTTP/1.1" 500 141569
+"GET /less2/del_client/ HTTP/1.1" 200 991
+Internal Server Error: /less2/del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 30, in del_client
+    client = Client.objects.get(name=form.name, phone=form.phone)
+                                     ^^^^^^^^^
+AttributeError: 'ClientDel' object has no attribute 'name'
+"POST /less2/del_client/ HTTP/1.1" 500 61678
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/del_client/ HTTP/1.1" 200 991
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/del_client/ HTTP/1.1" 200 991
+"GET /less2/del_client/ HTTP/1.1" 200 811
+"GET /less2/del_client/ HTTP/1.1" 200 811
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/del_client/ HTTP/1.1" 200 1771
+"GET /less2/del_client/ HTTP/1.1" 200 1771
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+"GET /less2/del_client/ HTTP/1.1" 200 1771
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+"GET /less2/del_client/ HTTP/1.1" 200 1771
+"GET /less2/del_client/ HTTP/1.1" 200 1803
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /less2/del_client/
+"GET /less2/del_client/ HTTP/1.1" 404 3207
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /less2/del_client/
+"GET /less2/del_client/ HTTP/1.1" 404 3207
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client' with no arguments not found. 1 pattern(s) tried: ['less2/(?P<client_id>[0-9]+)/del_client/\\Z']
+"GET /less2/get_clients/ HTTP/1.1" 500 131687
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client' with no arguments not found. 1 pattern(s) tried: ['less2/(?P<client_id>[0-9]+)/del_client/\\Z']
+"GET /less2/get_clients/ HTTP/1.1" 500 131824
+Internal Server Error: /less2/get_clients/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 23, in get_clients
+    return render(request, 'all_clients.html', {'clients': clients})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client' with no arguments not found. 1 pattern(s) tried: ['less2/(?P<client_id>[0-9]+)/del_client/\\Z']
+"GET /less2/get_clients/ HTTP/1.1" 500 131824
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1772
+Internal Server Error: /less2//del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_client() missing 1 required positional argument: 'client_id'
+"GET /less2//del_client/ HTTP/1.1" 500 57043
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /less2//del_client/
+"GET /less2//del_client/ HTTP/1.1" 404 3188
+Not Found: /less2//del_client/
+"GET /less2//del_client/ HTTP/1.1" 404 3188
+Not Found: /less2//del_client/
+"GET /less2//del_client/ HTTP/1.1" 404 3188
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+Internal Server Error: /less2/del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_client() missing 1 required positional argument: 'client_id'
+"GET /less2/del_client/ HTTP/1.1" 500 57034
+Internal Server Error: /less2/del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: del_client() missing 1 required positional argument: 'client_id'
+"GET /less2/del_client/ HTTP/1.1" 500 57171
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+"GET /less2/ HTTP/1.1" 200 606
+"GET /less2/create_client/ HTTP/1.1" 200 1229
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+Internal Server Error: /less2/del_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 28, in del_client
+    return render(request, 'delete_client.html', {'clients': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client' with arguments '(1,)' not found. 1 pattern(s) tried: ['less2/del_client/\\Z']
+"GET /less2/del_client/ HTTP/1.1" 500 155404
+"GET /less2/get_clients/ HTTP/1.1" 200 1771
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+Internal Server Error: /less2/du_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 28, in du_client
+    return render(request, 'delete_client.html', {'clients': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client' not found. 'del_client' is not a valid view function or pattern name.
+"GET /less2/du_client/ HTTP/1.1" 500 154977
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 3691
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+"GET /less2/du_client/ HTTP/1.1" 200 3691
+"GET /less2/du_client/ HTTP/1.1" 200 3691
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+"GET /less2/du_client/ HTTP/1.1" 200 3731
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+"GET /less2/du_client/ HTTP/1.1" 200 3731
+Internal Server Error: /less2/du_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 28, in du_client
+    return render(request, 'delete_client.html', {'clients': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'del_client1' not found. 'del_client1' is not a valid view function or pattern name.
+"GET /less2/du_client/ HTTP/1.1" 500 154996
+"GET /less2/du_client/ HTTP/1.1" 200 3731
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 3731
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+Internal Server Error: /less2/du_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 28, in du_client
+    return render(request, 'delete_client.html', {'clients': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'update_client' not found. 'update_client' is not a valid view function or pattern name.
+"GET /less2/du_client/ HTTP/1.1" 500 156244
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 5361
+Internal Server Error: /less2/1/update_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 49, in update_client
+    return render(request, 'update_client.html', {'form': form, 'client': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: update_client.html
+"POST /less2/1/update_client/ HTTP/1.1" 500 76491
+Internal Server Error: /less2/1/update_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 49, in update_client
+    return render(request, 'update_client.html', {'form': form, 'client': client})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: update_client.html
+"POST /less2/1/update_client/ HTTP/1.1" 500 76491
+"POST /less2/1/update_client/ HTTP/1.1" 200 1329
+Internal Server Error: /less2/1/update_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 46, in update_client
+    return redirect('all_clients')
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'all_clients' not found. 'all_clients' is not a valid view function or pattern name.
+"POST /less2/1/update_client/ HTTP/1.1" 500 80741
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/1/update_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1787
+"GET /less2/du_client/ HTTP/1.1" 200 5361
+"POST /less2/5/update_client/ HTTP/1.1" 200 1315
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 200 1298
+"POST /less2/5/update_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1763
+"GET /less2/du_client/ HTTP/1.1" 200 5337
+"GET /less2/get_clients/ HTTP/1.1" 200 1763
+"GET /less2/du_client/ HTTP/1.1" 200 5337
+"GET /less2/get_clients/ HTTP/1.1" 200 1763
+"GET /less2/du_client/ HTTP/1.1" 200 5337
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 5337
+"GET /less2/get_clients/ HTTP/1.1" 200 1763
+"GET /less2/du_client/ HTTP/1.1" 200 5337
+"GET /less2/du_client/ HTTP/1.1" 200 5377
+"GET /less2/du_client/ HTTP/1.1" 200 5377
+"POST /less2/1/update_client/ HTTP/1.1" 200 1329
+"POST /less2/1/update_client/ HTTP/1.1" 200 1317
+"POST /less2/1/update_client/ HTTP/1.1" 200 1317
+"POST /less2/1/update_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1742
+"GET /less2/du_client/ HTTP/1.1" 200 5356
+"POST /less2/2/update_client/ HTTP/1.1" 200 1329
+"GET /less2/get_clients/ HTTP/1.1" 200 1742
+"GET /less2/du_client/ HTTP/1.1" 200 5211
+"POST /less2/1/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1569
+"GET /less2/du_client/ HTTP/1.1" 200 4354
+"POST /less2/2/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1375
+"GET /less2/du_client/ HTTP/1.1" 200 3476
+"POST /less2/5/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1221
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1415
+"GET /less2/du_client/ HTTP/1.1" 200 3516
+"POST /less2/4/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1218
+"GET /less2/du_client/ HTTP/1.1" 200 2631
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1412
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1606
+"GET /less2/du_client/ HTTP/1.1" 200 4383
+"POST /less2/3/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1409
+"GET /less2/du_client/ HTTP/1.1" 200 3504
+"POST /less2/8/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2628
+"GET /less2/du_client/ HTTP/1.1" 200 2547
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2547
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2547
+"GET /less2/du_client/ HTTP/1.1" 200 2425
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2425
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2425
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+"GET /less2/du_client/ HTTP/1.1" 200 2425
+"GET /less2/get_clients/ HTTP/1.1" 200 1215
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 2425
+"POST /less2/6/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1021
+"GET /less2/du_client/ HTTP/1.1" 200 1628
+"POST /less2/7/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 827
+"GET /less2/du_client/ HTTP/1.1" 200 831
+"GET /less2/du_client/ HTTP/1.1" 200 831
+"GET /less2/get_clients/ HTTP/1.1" 200 827
+"GET /less2/du_client/ HTTP/1.1" 200 831
+"GET /less2/get_clients/ HTTP/1.1" 200 827
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1021
+"GET /less2/du_client/ HTTP/1.1" 200 1628
+"POST /less2/9/update_client/ HTTP/1.1" 200 1331
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less2/9/update_client/
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py", line 41, in update_client
+    print(el.name for el in client)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'Client' object is not iterable
+"POST /less2/9/update_client/ HTTP/1.1" 500 62082
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less2/9/update_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1011
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 1618
+"POST /less2/9/update_client/ HTTP/1.1" 200 1331
+"POST /less2/9/update_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1013
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1013
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1209
+"GET /less2/du_client/ HTTP/1.1" 200 2423
+"POST /less2/9/del_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1023
+"GET /less2/du_client/ HTTP/1.1" 200 1634
+"GET /less2/du_client/ HTTP/1.1" 200 1634
+"GET /less2/get_clients/ HTTP/1.1" 200 1023
+"GET /less2/du_client/ HTTP/1.1" 200 1634
+"GET /less2/du_client/ HTTP/1.1" 200 1634
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/get_clients/ HTTP/1.1" 200 1023
+"GET /less2/du_client/ HTTP/1.1" 200 1634
+"POST /less2/10/update_client/ HTTP/1.1" 200 1338
+"POST /less2/10/update_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 1638
+"GET /less2/get_clients/ HTTP/1.1" 200 1027
+"GET /less2/du_client/ HTTP/1.1" 200 1638
+"GET /less2/get_clients/ HTTP/1.1" 200 1027
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"GET /less2/get_clients/ HTTP/1.1" 200 1027
+"GET /less2/du_client/ HTTP/1.1" 200 1638
+"GET /less2/get_clients/ HTTP/1.1" 200 1027
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1228
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less2/du_client/ HTTP/1.1" 200 2446
+"GET /less2/get_clients/ HTTP/1.1" 200 1228
+"GET /less2/get_clients/ HTTP/1.1" 200 1228
+"GET /less2/du_client/ HTTP/1.1" 200 2446
+"GET /less2/get_clients/ HTTP/1.1" 200 1228
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/views.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"GET /less2/get_clients/ HTTP/1.1" 200 1228
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/get_clients/ HTTP/1.1" 200 1422
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"GET /less2/du_client/ HTTP/1.1" 200 3247
+"POST /less2/12/del_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 2446
+"POST /less2/11/del_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 1638
+"POST /less2/10/update_client/ HTTP/1.1" 200 1338
+"POST /less2/10/update_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 1646
+"GET /less2/du_client/ HTTP/1.1" 200 1646
+"POST /less2/10/update_client/ HTTP/1.1" 200 1326
+"POST /less2/10/update_client/ HTTP/1.1" 200 1326
+"POST /less2/10/update_client/ HTTP/1.1" 200 1326
+"POST /less2/10/update_client/ HTTP/1.1" 200 1326
+"POST /less2/10/update_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 1646
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/du_client/ HTTP/1.1" 200 2434
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"GET /less2/du_client/ HTTP/1.1" 200 2434
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 508
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"POST /less2/create_client/ HTTP/1.1" 302 0
+"GET /less2/get_clients/ HTTP/1.1" 200 1355
+"GET /less2/du_client/ HTTP/1.1" 200 3223
+"POST /less2/14/del_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 2434
+"POST /less2/13/update_client/ HTTP/1.1" 200 1296
+"POST /less2/13/update_client/ HTTP/1.1" 302 0
+"GET /less2/du_client/ HTTP/1.1" 200 2434
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/create_client/ HTTP/1.1" 200 1245
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/ HTTP/1.1" 200 622
+"GET /less2/ HTTP/1.1" 200 671
+"GET /less2/ HTTP/1.1" 200 671
+"GET /less2/get_clients/ HTTP/1.1" 200 1173
+"GET /less2/ HTTP/1.1" 200 671
