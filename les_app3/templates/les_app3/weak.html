@@ -1,0 +1,21 @@
+{% extends 'les_app3/base.html' %}
+
+{% block content %}
+<h3>Товары заказанные за последние 7 дней</h3>
+
+<table border="1">
+    <tr>
+        <th>Товары</th>
+        <th>Дата заказа</th>
+    </tr>
+    {% for order in orders %}
+    <tr>
+        <td>{% for product in order.product.all %}
+            {{ product.name }}
+            {% endfor %}
+        </td>
+        <td>{{order.date_order}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

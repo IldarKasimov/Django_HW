@@ -46,3 +46,6 @@ def update_client(request, client_id):
     else:
         form = ClientForm(instance=client)
     return render(request, 'update_client.html', {'form': form, 'client': client})
+
+
+

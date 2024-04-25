@@ -16,6 +16,14 @@ class Product(models.Model):
     quantity = models.IntegerField()
     added_date = models.DateField(auto_now_add=True)
 
+    def __str__(self):
+        return self.name
+
+    @staticmethod
+    def get_end():
+        value = Product.objects.order_by('-id')[:1]
+        return value
+
 
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.deletion.CASCADE)

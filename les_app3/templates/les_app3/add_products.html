@@ -1,0 +1,28 @@
+{% extends 'les_app3/base.html' %}
+
+{% block content %}
+
+<li><a href="{% url 'create_products' %}">Создать 10 товаров</a></li>
+
+{{order_id}}
+<table border="1">
+    <tr>
+        <th>Имя</th>
+        <th>Описание</th>
+        <th>Цена</th>
+        <th>Количество</th>
+        <th>Дата создания</th>
+    </tr>
+    {% for product in products %}
+    <tr>
+        <td>{{product.name}}</td>
+        <td>{{product.descriptions}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.quantity}}</td>
+        <td>{{product.added_date}}</td>
+        <td><a href="{% url 'prod_in_order' order_id product.id %}">Добавить товар в заказ</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}

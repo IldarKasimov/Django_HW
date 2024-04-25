@@ -12,6 +12,7 @@ def main(request):
     <ul>
         <li class="nav-item"><a href="/about/" class="nav-link">Обо мне</a></li>
         <li class="nav-item"><a href="/less2/" class="nav-link">Домашняя работа №2</a></li>
+        <li class="nav-item"><a href="/less3/" class="nav-link">Домашняя работа №3</a></li>
     </ul>
     <h2> Привет! Это мой первый проект!</h2>
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVxWdfrABjlR-f23BLU7GrbSNXg8emB3b334UwR9cmuA&s" 

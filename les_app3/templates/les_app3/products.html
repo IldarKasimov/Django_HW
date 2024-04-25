@@ -1,0 +1,31 @@
+{% extends 'les_app3/base.html' %}
+
+{% block content %}
+
+
+<form method="post">
+    {% csrf_token %}
+    <input type='number' name='count' placeholder="Введите кол товара">
+    <button type="submit">Создать товар(ы)</button>
+</form>
+
+<table border="1">
+    <tr>
+        <th>Имя</th>
+        <th>Описание</th>
+        <th>Цена</th>
+        <th>Количество</th>
+        <th>Дата создания</th>
+    </tr>
+    {% for product in products %}
+    <tr>
+        <td>{{product.name}}</td>
+        <td>{{product.descriptions}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.quantity}}</td>
+        <td>{{product.added_date}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
