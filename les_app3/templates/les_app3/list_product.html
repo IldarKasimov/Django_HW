@@ -28,4 +28,12 @@
     </tr>
     {% endfor %}
 </table>
+<h3>Список без повторяющихся товаров</h3>
+
+Клиент - {{ client_name }}<br>
+{% for product in list %}
+{{ product }}<br>
+{% endfor %}
+
+
 {% endblock %}

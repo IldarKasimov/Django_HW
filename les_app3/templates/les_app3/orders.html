@@ -16,7 +16,7 @@
         <td>{{client.id}}</td>
         <td>{{client.name}}</td>
         <td>{{client.phone}}</td>
-        <td><a href="{% url 'get_list_product' client.id %}">Посмотреть список</a></td>
+        <td><a href="{% url 'get_list_product' client.id %}">Посмотреть список для клиента</a></td>
         <td><a href="{% url 'create_order' client.id %}">Создать заказ</a></td>
 
     </tr>
@@ -36,8 +36,8 @@
     <tr>
         <td>{{order.id}}</td>
         <td>{{order.client.name}}</td>
-        <td>{% for order in order.product.all%}
-            {{ order.name }}<br>
+        <td>{% for product in order.product.all%}
+            {{ product.name }}<br>
             {% endfor %}
         </td>
         <td>{{order.total_amount}}</td>

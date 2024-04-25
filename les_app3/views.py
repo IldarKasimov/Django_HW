@@ -63,15 +63,21 @@ def prod_in_order(request, order_id, product_id):
     return redirect('get_orders')
 
 
+def product_list():
+    return '123'
+
+
 def get_list_product(request, client_id):
     orders = Order.objects.filter(client=client_id)
-    context = {'orders': orders, 'text': 'все время'}
+    client = Client.objects.get(pk=client_id)
+    client_name = client.name
+    context = {'orders': orders, 'text': 'все время', 'client_name': client_name}
     if request.method == 'POST':
         days = request.POST.get('days', None)
         if not days:
             return render(request, 'les_app3/list_product.html', context=context)
         days = int(days)
-        if days == 0:
+        if days == 1:
             text = 'сегодня'
         elif (days // 10) % 10 == 1 or days % 10 == 0 or 5 <= days % 10 <= 9:
             text = f'последние {days} дней'
@@ -81,10 +87,13 @@ def get_list_product(request, client_id):
             text = f'последний {days} день'
         orders_list = []
         for order in orders:
-            if (datetime.now().date() - order.date_order).days <= days:
+            if (datetime.now().date() - order.date_order).days < days:
                 orders_list.append(order)
-        orders = orders_list
-        context = {'orders': orders, 'text': text}
+        product_list = []
+        for order in orders_list:
+            for product in order.product.all():
+                if product.name not in product_list:
+                    product_list.append(product.name)
+        context = {'orders': orders_list, 'text': text, 'list': product_list, 'client_name': client_name}
         return render(request, 'les_app3/list_product.html', context=context)
     return render(request, 'les_app3/list_product.html', context=context)
-
