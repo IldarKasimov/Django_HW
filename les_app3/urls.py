@@ -11,5 +11,5 @@ urlpatterns = [
     path('del_ord/<int:order_id>', views.del_order, name='del_order'),
     path('add_prod/<int:order_id>', views.add_product, name='add_product'),
     path('prod_in_order/<int:order_id>/<int:product_id>/', views.prod_in_order, name='prod_in_order'),
-    path('get_weak/<int:client_id>', views.get_weak, name='get_weak'),
+    path('get_list_product/<int:client_id>', views.get_list_product, name='get_list_product'),
 ]

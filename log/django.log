@@ -6277,3 +6277,601 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /less3/get_weak/10 HTTP/1.1" 200 1158
 "GET /less3/orders/ HTTP/1.1" 200 4585
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 616
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2655
+"GET /less3/ HTTP/1.1" 200 626
+"GET /less3/orders/ HTTP/1.1" 200 4585
+"GET /less3/orders/ HTTP/1.1" 200 4585
+"GET /less3/get_weak/10 HTTP/1.1" 200 1158
+"GET /less3/products/ HTTP/1.1" 200 6824
+"GET /less3/orders/ HTTP/1.1" 200 4585
+"GET /less3/orders/ HTTP/1.1" 200 4376
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /less3/get_weak/10
+"GET /less3/get_weak/10 HTTP/1.1" 404 4363
+Watching for file changes with StatReloader
+"GET /less3/orders/ HTTP/1.1" 200 4348
+"GET /less3/orders/ HTTP/1.1" 200 4348
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1431
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1431
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1657
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1587
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1587
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1587
+"GET /less3/get_list_product/10 HTTP/1.1" 200 1776
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2086
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2073
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/ HTTP/1.1" 200 626
+"GET /less3/orders/ HTTP/1.1" 200 4348
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2072
+Internal Server Error: /less3/get_list_product/10
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 71, in get_list_product
+    if (datetime.now().date() - order.date_order).days < days:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'int' and 'str'
+"POST /less3/get_list_product/10 HTTP/1.1" 500 66212
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/orders/ HTTP/1.1" 200 4348
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2072
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1710
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2064
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2064
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2064
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2115
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2116
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2115
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2124
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2129
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1767
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less3/get_list_product/10
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 70, in get_list_product
+    if (days // 10) % 10 == 1 or days % 10 == 0 or 5 <= days % 10 <= 9:
+        ~~~~~^^~~~
+TypeError: unsupported operand type(s) for //: 'str' and 'int'
+"POST /less3/get_list_product/10 HTTP/1.1" 500 66243
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1154
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1792
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1154
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1792
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1794
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2158
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/orders/ HTTP/1.1" 200 4348
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2145
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2126
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1773
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2139
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1135
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1773
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1773
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1904
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1949
+"GET /less3/orders/ HTTP/1.1" 200 4392
+"GET /less3/orders/ HTTP/1.1" 200 4394
+"GET /less3/orders/ HTTP/1.1" 200 4410
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2170
+"GET /less3/orders/ HTTP/1.1" 200 4424
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2170
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/orders/ HTTP/1.1" 200 4424
+"GET /less3/products/ HTTP/1.1" 200 6873
+"GET /less3/orders/ HTTP/1.1" 200 4424
+Internal Server Error: /less3/add_prod/21
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 50, in add_product
+    return render(request, 'les_app3/add_products.html', {'order_id': order_id, 'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_products' with no arguments not found. 1 pattern(s) tried: ['less3/create_prod/(?P<count>[0-9]+)\\Z']
+"GET /less3/add_prod/21 HTTP/1.1" 500 156995
+"GET /less3/products/ HTTP/1.1" 200 6873
+"GET /less3/orders/ HTTP/1.1" 200 4424
+Internal Server Error: /less3/add_prod/12
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 50, in add_product
+    return render(request, 'les_app3/add_products.html', {'order_id': order_id, 'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_products' with no arguments not found. 1 pattern(s) tried: ['less3/create_prod/(?P<count>[0-9]+)\\Z']
+"GET /less3/add_prod/12 HTTP/1.1" 500 156995
+Internal Server Error: /less3/add_prod/12
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 50, in add_product
+    return render(request, 'les_app3/add_products.html', {'order_id': order_id, 'products': products})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\template\defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_products' with no arguments not found. 1 pattern(s) tried: ['less3/create_prod/(?P<count>[0-9]+)\\Z']
+"GET /less3/add_prod/12 HTTP/1.1" 500 156995
+"GET /less3/add_prod/12 HTTP/1.1" 200 9987
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /less3/prod_in_order/12/5/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4463
+"GET /less3/add_prod/12 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/12/22/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4503
+"GET /less3/add_prod/12 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/12/23/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4543
+"GET /less3/add_prod/26 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/26/17/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4586
+"GET /less3/add_prod/26 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/26/19/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4626
+"GET /less3/add_prod/26 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/26/9/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4666
+"GET /less3/add_prod/26 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/26/31/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4706
+"GET /less3/add_prod/26 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/26/25/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 4746
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2456
+"GET /less3/orders/ HTTP/1.1" 200 4746
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2456
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2467
+"GET /less3/orders/ HTTP/1.1" 200 4746
+"GET /less3/create_ord/16 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5065
+"GET /less3/add_prod/28 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/28/23/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5108
+"GET /less3/add_prod/28 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/28/19/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5148
+"GET /less3/add_prod/28 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/28/10/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5188
+"GET /less3/add_prod/29 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/29/28/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5231
+"GET /less3/add_prod/29 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/29/15/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5272
+"GET /less3/add_prod/29 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/29/31/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5312
+"GET /less3/get_list_product/16 HTTP/1.1" 200 1632
+"GET /less3/orders/ HTTP/1.1" 200 5312
+"GET /less3/create_ord/10 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5637
+"GET /less3/create_ord/10 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 5962
+"GET /less3/create_ord/16 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 6281
+"GET /less3/create_ord/16 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 6600
+"GET /less3/create_ord/16 HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 6919
+"GET /less3/add_prod/22 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/22/14/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 6962
+"GET /less3/add_prod/23 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/23/18/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7005
+"GET /less3/add_prod/25 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/25/7/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7047
+"GET /less3/add_prod/24 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/24/6/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7088
+"GET /less3/add_prod/21 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/21/25/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7131
+"GET /less3/add_prod/32 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/32/30/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7174
+"GET /less3/add_prod/33 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/33/31/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7217
+"GET /less3/add_prod/34 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/34/15/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7260
+"GET /less3/add_prod/33 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/33/16/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7300
+"GET /less3/add_prod/34 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/34/31/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7341
+"GET /less3/orders/ HTTP/1.1" 200 7341
+"GET /less3/orders/ HTTP/1.1" 200 7341
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2906
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1435
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1180
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2403
+"GET /less3/orders/ HTTP/1.1" 200 7341
+"GET /less3/add_prod/30 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/30/28/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7384
+"GET /less3/add_prod/31 HTTP/1.1" 200 9984
+"GET /less3/prod_in_order/31/17/ HTTP/1.1" 302 0
+"GET /less3/orders/ HTTP/1.1" 200 7427
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2980
+"GET /less3/orders/ HTTP/1.1" 200 7427
+"GET /less3/get_list_product/16 HTTP/1.1" 200 2183
+"GET /less3/orders/ HTTP/1.1" 200 7427
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2479
+Internal Server Error: /less3/get_list_product/10
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 68, in get_list_product
+    days = int(request.POST.get('days', None))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+"POST /less3/get_list_product/10 HTTP/1.1" 500 66311
+"GET /less3/products/ HTTP/1.1" 200 6873
+Internal Server Error: /less3/products/
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 14, in get_products
+    return redirect('create_products', count=count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_products' with keyword arguments '{'count': ''}' not found. 1 pattern(s) tried: ['less3/create_prod/(?P<count>[0-9]+)\\Z']
+"POST /less3/products/ HTTP/1.1" 500 87246
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less3/products/
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 14, in get_products
+    return redirect('create_products', count=count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\urls\resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'create_products' with keyword arguments '{'count': ''}' not found. 1 pattern(s) tried: ['less3/create_prod/(?P<count>[0-9]+)\\Z']
+"POST /less3/products/ HTTP/1.1" 500 87243
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/products/ HTTP/1.1" 302 0
+"GET /less3/create_prod/0 HTTP/1.1" 302 0
+"GET /less3/products/ HTTP/1.1" 200 6873
+"POST /less3/products/ HTTP/1.1" 302 0
+"GET /less3/create_prod/0 HTTP/1.1" 302 0
+"GET /less3/products/ HTTP/1.1" 200 6873
+"POST /less3/products/ HTTP/1.1" 302 0
+"GET /less3/create_prod/0 HTTP/1.1" 302 0
+"GET /less3/products/ HTTP/1.1" 200 6873
+"POST /less3/products/ HTTP/1.1" 302 0
+"GET /less3/create_prod/0 HTTP/1.1" 302 0
+"GET /less3/products/ HTTP/1.1" 200 6873
+"POST /less3/products/ HTTP/1.1" 302 0
+"GET /less3/create_prod/0 HTTP/1.1" 302 0
+"GET /less3/products/ HTTP/1.1" 200 6873
+"GET /less3/orders/ HTTP/1.1" 200 7427
+"GET /less3/get_list_product/10 HTTP/1.1" 200 2980
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less3/get_list_product/10
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 70, in get_list_product
+    days = int(request.POST.get('days', None))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+"POST /less3/get_list_product/10 HTTP/1.1" 500 66272
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /less3/get_list_product/10
+Traceback (most recent call last):
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py", line 71, in get_list_product
+    days = int(days)
+           ^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+"POST /less3/get_list_product/10 HTTP/1.1" 500 66324
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1179
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1179
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1179
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1179
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2479
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1509
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2479
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2477
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+C:\Users\omsha\Desktop\Ildar\Django_HW\Django_HW\les_app3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2479
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2479
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1180
+"POST /less3/get_list_product/10 HTTP/1.1" 200 1494
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2477
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980
+"POST /less3/get_list_product/10 HTTP/1.1" 200 2980

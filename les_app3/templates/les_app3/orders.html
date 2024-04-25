@@ -8,20 +8,17 @@
         <th>ИД</th>
         <th>Клиент</th>
         <th>Телефон</th>
+        <th>Список заказанных товаров<br>Фильтр по дням:</th>
         <th></th>
-        <th>Товары заказанные за последние:</th>
     </tr>
     {% for client in clients %}
     <tr>
         <td>{{client.id}}</td>
         <td>{{client.name}}</td>
         <td>{{client.phone}}</td>
+        <td><a href="{% url 'get_list_product' client.id %}">Посмотреть список</a></td>
         <td><a href="{% url 'create_order' client.id %}">Создать заказ</a></td>
-        <td>
-            <a href="{% url 'get_weak' client.id %}">7 дней /</a>
-            <a href="{% url 'create_order' client.id %}">30 дней /</a>
-            <a href="{% url 'create_order' client.id %}">365 дней</a>
-        </td>
+
     </tr>
     {% endfor %}
 </table>

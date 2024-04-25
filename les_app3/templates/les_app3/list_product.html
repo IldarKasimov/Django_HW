@@ -1,0 +1,31 @@
+{% extends 'les_app3/base.html' %}
+
+{% block content %}
+
+<h3>Фильтр заказов период (в днях):</h3>
+<form method="post">
+    {% csrf_token %}
+    <input type='number' name='days' placeholder="Введите кол-во дней">
+    <button type="submit">Показать</button>
+</form>
+
+<h3>Товары заказанные за {{ text }}</h3>
+
+<table border="1">
+    <tr>
+        <th>Клиент</th>
+        <th>Товары</th>
+        <th>Дата заказа</th>
+    </tr>
+    {% for order in orders %}
+    <tr>
+        <td>{{ order.client.name }}</td>
+        <td>{% for product in order.product.all %}
+            {{ product.name }}/
+            {% endfor %}
+        </td>
+        <td>{{order.date_order}}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

@@ -11,6 +11,8 @@ def index(request):
 def get_products(request):
     if request.method == 'POST':
         count = request.POST.get('count', None)
+        if not count:
+            count = 0
         return redirect('create_products', count=count)
     products = Product.objects.all()
     return render(request, 'les_app3/products.html', {'products': products})
@@ -46,7 +48,6 @@ def del_order(request, order_id):
 
 def add_product(request, order_id):
     products = Product.objects.all()
-    order_id = order_id
     return render(request, 'les_app3/add_products.html', {'order_id': order_id, 'products': products})
 
 
@@ -62,11 +63,28 @@ def prod_in_order(request, order_id, product_id):
     return redirect('get_orders')
 
 
-def get_weak(request, client_id):
+def get_list_product(request, client_id):
     orders = Order.objects.filter(client=client_id)
-    orders_list = []
-    for order in orders:
-        if (datetime.now().date() - order.date_order).days < 8:
-            orders_list.append(order)
-    return render(request, 'les_app3/weak.html', {'orders': orders_list})
+    context = {'orders': orders, 'text': 'все время'}
+    if request.method == 'POST':
+        days = request.POST.get('days', None)
+        if not days:
+            return render(request, 'les_app3/list_product.html', context=context)
+        days = int(days)
+        if days == 0:
+            text = 'сегодня'
+        elif (days // 10) % 10 == 1 or days % 10 == 0 or 5 <= days % 10 <= 9:
+            text = f'последние {days} дней'
+        elif 2 <= days % 10 <= 4:
+            text = f'последние {days} дня'
+        else:
+            text = f'последний {days} день'
+        orders_list = []
+        for order in orders:
+            if (datetime.now().date() - order.date_order).days <= days:
+                orders_list.append(order)
+        orders = orders_list
+        context = {'orders': orders, 'text': text}
+        return render(request, 'les_app3/list_product.html', context=context)
+    return render(request, 'les_app3/list_product.html', context=context)
 
