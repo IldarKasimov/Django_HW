@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
+<link rel="stylesheet" href="{% static 'les_app4/css/styles.css' %}" type="text/css" id="styleSheet">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
-    <ul>
-        <li><a href="{% url 'get_products' %}">Товары</a></li>
-        <li><a href="{% url 'create_product' %}">Создать товар</a></li>
-
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="{% url 'get_products' %}">Товары</a></li>
+            <li><a href="{% url 'create_product' %}">Создать товар</a></li>
+        </ul>
+    </nav>
 {% block content %}
 {% endblock %}
 </body>
