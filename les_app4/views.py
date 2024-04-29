@@ -1,6 +1,6 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from les_app2.models import Product
-from .forms import ProductForm
+from .forms import ProductForm, SavePhoto
 
 
 def index(request):
@@ -26,7 +26,7 @@ def update_product(request, product_id):
 
 
 def delete_product(request, product_id):
-    product = Product.objects.get(id=product_id)
+    product = get_object_or_404(Product, id=product_id)
     product.delete()
     return get_products(request)
 
@@ -41,3 +41,17 @@ def create_product(request):
         form = ProductForm()
     context = {'form': form, 'title': 'Создать товар'}
     return render(request, 'les_app4/form_product.html.html', context=context)
+
+
+def add_photo(request, product_id):
+    product = Product.objects.get(id=product_id)
+    if request.method == 'POST':
+        form_photo = SavePhoto(request.POST, request.FILES)
+        if form_photo.is_valid():
+            photo = form_photo.cleaned_data['photo']
+            product.photo = photo
+            product.save()
+        return get_products(request)
+    else:
+        form = SavePhoto()
+    return render(request, 'les_app4/add_photo.html', {'form': form})

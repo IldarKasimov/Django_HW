@@ -26,6 +26,7 @@
             <img src="{{ product.photo.url }}" alt="{{ product.name }}" width="100">
             {% endif %}
         </td>
+        <td><a href="{% url 'add_photo' product.id%}">Загрузить/Изменить фото товара</a></td>
         <td><a href="{% url 'update_product' product.id %}">Изменить</a></td>
         <td><a href="{% url 'delete_product' product.id%}">Удалить</a></td>
     </tr>

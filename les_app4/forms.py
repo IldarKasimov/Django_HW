@@ -12,3 +12,7 @@ class ProductForm(forms.ModelForm):
                    'price': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Цена'}),
                    'quantity': forms.NumberInput(attrs={'class': 'form-control', 'placeholder': 'Кол-во'}),
                    }
+
+
+class SavePhoto(forms.Form):
+    photo = forms.ImageField()
