@@ -15,7 +15,7 @@ def create_client(request):
             return redirect('get_clients')
     else:
         form = ClientForm()
-    return render(request, 'create_client.html', {'form': form})
+    return render(request, 'create_client1.html', {'form': form})
 
 
 def get_clients(request):

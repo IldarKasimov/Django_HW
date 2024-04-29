@@ -36,7 +36,7 @@
     <tr>
         <td>{{order.id}}</td>
         <td>{{order.client.name}}</td>
-        <td>{% for product in order.product.all%}
+        <td>{% for product in order.product.all %}
             {{ product.name }}<br>
             {% endfor %}
         </td>

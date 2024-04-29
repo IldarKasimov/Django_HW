@@ -1,0 +1,25 @@
+{% extends 'les_app4/base.html' %}
+
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+<h2>
+    {% if product %}
+        Изменить товар: {{ product.name }}
+    {% else %}
+        Создать товар
+    {% endif %}
+</h2>
+<form method="post" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">
+        {% if product %}
+            Сохранить
+        {% else %}
+            Создать
+        {% endif %}
+    </button>
+</form>
+
+{% endblock %}

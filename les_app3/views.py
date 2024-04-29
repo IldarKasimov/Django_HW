@@ -63,10 +63,6 @@ def prod_in_order(request, order_id, product_id):
     return redirect('get_orders')
 
 
-def product_list():
-    return '123'
-
-
 def get_list_product(request, client_id):
     orders = Order.objects.filter(client=client_id)
     client = Client.objects.get(pk=client_id)
