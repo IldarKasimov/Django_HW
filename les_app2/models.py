@@ -8,6 +8,9 @@ class Client(models.Model):
     address = models.CharField(max_length=200)
     date_registration = models.DateField(auto_now_add=True)
 
+    def __str__(self):
+        return self.name
+
 
 class Product(models.Model):
     name = models.CharField(max_length=200)
@@ -29,5 +32,10 @@ class Product(models.Model):
 class Order(models.Model):
     client = models.ForeignKey(Client, on_delete=models.deletion.CASCADE)
     product = models.ManyToManyField(Product)
-    total_amount = models.DecimalField(max_digits=10, decimal_places=2)
+    total_amount = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     date_order = models.DateField(auto_now_add=True)
+    order_id = models.CharField(max_length=20, default='')
+
+    def save(self, *args, **kwargs):
+        self.order_id = f'Заказ-{self.id}'
+        super(Order, self).save(*args, **kwargs)
