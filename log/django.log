@@ -19545,3 +19545,35 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 "GET /admin/les_app2/product/ HTTP/1.1" 200 13101
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+"GET /admin/ HTTP/1.1" 200 10637
+"POST /admin/logout/ HTTP/1.1" 200 3553
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/login.css HTTP/1.1" 304 0
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 10637
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/apps.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/apps.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/les_app2/__init__.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
