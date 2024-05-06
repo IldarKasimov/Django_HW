@@ -19577,3 +19577,250 @@ Watching for file changes with StatReloader
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
 "GET /admin/les_app2/product/ HTTP/1.1" 200 13119
 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/ HTTP/1.1" 200 5940
+"GET /admin/les_app2/ HTTP/1.1" 200 5940
+"GET /admin/les_app2/ HTTP/1.1" 200 5940
+"GET /admin/les_app2/client/ HTTP/1.1" 200 13328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/auth/ HTTP/1.1" 200 5553
+"GET /admin/ HTTP/1.1" 200 10649
+"GET /admin/les_app2/ HTTP/1.1" 200 5940
+"GET /admin/les_app2/client/ HTTP/1.1" 200 13328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/order/ HTTP/1.1" 200 13997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/product/ HTTP/1.1" 200 13119
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/order/ HTTP/1.1" 200 13997
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /admin/les_app2/client/ HTTP/1.1" 200 13328
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 179
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+/Users/user/Desktop/Education/Python/7_Framework_Django1/HW/Django_HW/homeproject/homeproject/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+"GET /less2/ HTTP/1.1" 200 10435
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /less2/ HTTP/1.1" 200 10435
+"GET /less2/ HTTP/1.1" 200 10435
+"GET /less2/ HTTP/1.1" 200 10435
+"GET /less2/ HTTP/1.1" 200 10435
+"GET /less3/ HTTP/1.1" 200 10475
+"GET /less4/ HTTP/1.1" 200 10293
+"GET /static/les_app4/css/styles.css HTTP/1.1" 304 0
+"GET /static/les_app4/css/bg.jpg HTTP/1.1" 304 0
+"GET /less4/create_product/ HTTP/1.1" 200 11623
+"GET /less4/get_products/ HTTP/1.1" 200 12822
+"GET /media/product_photos/Python_logo.png HTTP/1.1" 304 0
+"GET /media/product_photos/png-clipart-djang.png HTTP/1.1" 304 0
+Internal Server Error: /media/product_photos/images_XP24USD.jpeg
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/middleware.py", line 58, in __call__
+    response = toolbar.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/timer.py", line 65, in process_request
+    return super().process_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/headers.py", line 46, in process_request
+    return super().process_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/staticfiles.py", line 114, in process_request
+    response = super().process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/profiling.py", line 148, in process_request
+    return self.profiler.runcall(super().process_request, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/cProfile.py", line 109, in runcall
+    self.enable()
+ValueError: Another profiling tool is already active
+Internal Server Error: /media/product_photos/djj_hlR48gD.png
+Traceback (most recent call last):
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/middleware.py", line 58, in __call__
+    response = toolbar.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/timer.py", line 65, in process_request
+    return super().process_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/headers.py", line 46, in process_request
+    return super().process_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/staticfiles.py", line 114, in process_request
+    response = super().process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/__init__.py", line 204, in process_request
+    return self.get_response(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/Users/user/Desktop/Education/Python/7_Framework_Django1/venv/lib/python3.12/site-packages/debug_toolbar/panels/profiling.py", line 148, in process_request
+    return self.profiler.runcall(super().process_request, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/cProfile.py", line 109, in runcall
+    self.enable()
+ValueError: Another profiling tool is already active
+"GET /media/product_photos/images_XP24USD.jpeg HTTP/1.1" 500 126551
+"GET /media/product_photos/djj_hlR48gD.png HTTP/1.1" 500 126447
+"GET /__debug__/render_panel/?store_id=bf6bd31f19ad404b90c5dd8785c52a6f&panel_id=SQLPanel HTTP/1.1" 200 18227
+"GET /less4/add_photo/41 HTTP/1.1" 200 10755
+"POST /less4/add_photo/41 HTTP/1.1" 200 12816
+"GET /media/product_photos/djj_S9MjakV.png HTTP/1.1" 200 2204
+"GET /media/product_photos/djj_hlR48gD.png HTTP/1.1" 200 2204
+"GET /less4/add_photo/41 HTTP/1.1" 200 10755
+"POST /less4/add_photo/41 HTTP/1.1" 200 12818
+"GET /media/product_photos/images_X7qtNiW.jpeg HTTP/1.1" 200 21090
+"POST /less4/add_photo/41 HTTP/1.1" 200 12818
+"GET /media/product_photos/images_rumhqNX.jpeg HTTP/1.1" 200 21090
+"GET /less4/add_photo/56 HTTP/1.1" 200 10755
+"GET /less4/update_product/56 HTTP/1.1" 200 11922
+"POST /less4/update_product/56 HTTP/1.1" 302 0
+"GET /less4/get_products/ HTTP/1.1" 200 12718
+"GET /media/product_photos/images_rumhqNX.jpeg HTTP/1.1" 304 0
+"GET /less4/add_photo/56 HTTP/1.1" 200 10755
+"POST /less4/add_photo/56 HTTP/1.1" 200 12818
+"GET /media/product_photos/images_rumhqNX.jpeg HTTP/1.1" 304 0
+"GET /media/product_photos/djj_Ff5bD0m.png HTTP/1.1" 200 2204
+"GET /less4/update_product/56 HTTP/1.1" 200 11922
+"GET /less4/create_product/ HTTP/1.1" 200 11623
+"GET /less4/get_products/ HTTP/1.1" 200 12820
+"GET /media/product_photos/images_rumhqNX.jpeg HTTP/1.1" 304 0
+"GET /media/product_photos/djj_Ff5bD0m.png HTTP/1.1" 304 0
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+Посетили страницу обо мне
+"GET /about/ HTTP/1.1" 200 613
+Постелили главную страницу
+"GET / HTTP/1.1" 200 849
+"GET /less2/ HTTP/1.1" 200 10435

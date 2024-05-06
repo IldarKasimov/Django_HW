@@ -25,6 +25,7 @@ urlpatterns = [
     path('less2/', include('les_app2.urls')),
     path('less3/', include('les_app3.urls')),
     path('less4/', include('les_app4.urls')),
+    # path('__debug__/', include('debug_toolbar.urls')),
 ]
 urlpatterns += (static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) +
                 static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT))
